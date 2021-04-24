@@ -1,0 +1,120 @@
+:root {
+  --dark: blueviolet;
+  --light: aliceblue;
+  --navlink-color: lightblue;
+  --basics: Georgia, "Times New Roman", Times, serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--dark);
+  color: aliceblue;
+  font-family: var(--basics);
+  font-size: 2.5rem;}
+  
+
+body {
+  background-color: slategray;
+  margin: 0;
+}
+
+p {
+  padding: 30px;
+}
+.container {
+  height: 400px;
+  width: 250px;
+  font-family: var(--basics);
+  color: var(--light);
+  border-right: 15px solid var(--light);
+  padding: 20px;
+  font-size: 24px;
+  float: left;
+}
+
+.information {
+  height: 400px;
+  padding: 35px;
+  display: flex;
+  color: var(--light);
+}
+
+img {
+  height: 500px;
+  width: 100%;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  
+}
+
+.navbar a {
+  text-decoration: none;
+    background-color: var(--dark);
+  color: aliceblue;
+  font-family: var(--basics);
+  font-size: 2rem;
+
+}
+
+.anything {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+   border: 5px solid rgb(5, 137, 245);
+}
+
+.card-header{
+  display: flex;
+  padding: 40px;
+ }
+ 
+ .row {
+   display: flex;
+   padding: 20px;
+ }
+
+ #project1 {
+   background-image: url("./chalkboard1.jpeg");
+   height: 200px;
+   background-size: cover;
+ }
+
+ #project2 {
+   background-image: url("./hasan-almasi-OwqLxCvoVxI-unsplash.jpg");
+   height: 100px;
+   background-size: cover;
+ }
+
+ #project3 {
+   background-image: url("./trash.jpg");
+   height: 100px;
+   background-size: cover;
+  
+ }
+
+ #project4 {
+   background-image: url("./IMG_0053.JPG");
+   height: 100px;
+   background-size: cover;
+ }
+
+ #project5 {
+   background-image: url("./94094370_915434125575757_6167146817386446848_n.jpg");
+   height: 100px;
+   background-size: cover;
+ }
+
+ @media screen and (max-width: 992px)
+
+ @media screen and (max-width: 768px)
+
+ @media screen and (max-width: 425px)
